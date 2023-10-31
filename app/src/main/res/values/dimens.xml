@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_item_1">320dp</dimen>
+    <dimen name="height_item_1">50dp</dimen>
+    <dimen name="text20">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

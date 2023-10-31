@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Uts</string>
+    <string name="store">Store</string>
+    <string name="your_name">Your Name</string>
+
+    <string-array name="item_store">
+        <item>Cihampelas</item>
+    </string-array>
+
+    <string name="your_name_hint">Please fill your name</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="pepperoni_pizza">Pepperoni Pizza</string>
+    <string name="spaghetti">Spaghetti</string>
+    <string name="burger">Burger</string>
+    <string name="steak">Steak</string>
+    <string name="pepperoni_pizza_description">Cocok bagi anda yang ingin merasakan pizza original dengan taburan keju dan daging asap yang lezat.</string>
+    <string name="spaghetti_description">Cocok bagi anda yang ingin merasakan spaghetti original dengan bumbu yang oriental.</string>
+    <string name="burger_description">Cocok bagi anda yang ingin merasakan kelembutan burger berlapiskan keju, sayuran dan daging yang tebal.</string>
+    <string name="steak_description">Cocok bagi anda yang ingin merasakan lezatnya daging steak dipadukan dengan kentang yang lezat.</string>
+
+    <string name="pepperoni_pizza_detail_description">Pepperoni pizza adalah pizza yang memiliki topping daging pepperoni sapi asli. Di Italia, pepperoni disebut salame piccante (salami panas). Biasa menjadi bahan baku pizza di Amerika Serikat, yang sering mewakili 30% pelengkap. Pizza ini cocok untuk santap siang ataupun malam anda</string>
+    <string name="price">price: Rp 66.000,00</string>
+</resources>

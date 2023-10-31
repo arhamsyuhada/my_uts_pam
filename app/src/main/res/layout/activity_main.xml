@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="198dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="92dp"
+        android:src="@drawable/rm_pizza_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/store_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/store"
+        android:textColor="@color/brown"
+        android:textSize="@dimen/text20"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Spinner
+        android:id="@+id/city_spinner"
+        android:layout_width="@dimen/width_item_1"
+        android:layout_height="@dimen/height_item_1"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="369dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="13dp"
+        android:entries="@array/item_store"
+        app:layout_constraintBottom_toTopOf="@+id/city_edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/city_edit_text"
+        android:layout_width="@dimen/width_item_1"
+        android:layout_height="@dimen/height_item_1"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="text"
+        android:text="Cibiru"
+        app:layout_constraintBottom_toTopOf="@+id/your_name_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city_spinner" />
+
+    <TextView
+        android:id="@+id/your_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:text="@string/your_name"
+        android:textColor="@color/brown"
+        android:textSize="@dimen/text20"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/your_name_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/your_name_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/city_edit_text" />
+
+    <EditText
+        android:id="@+id/your_name_edit_text"
+        android:layout_width="@dimen/width_item_1"
+        android:layout_height="@dimen/height_item_1"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="40dp"
+        android:hint="@string/your_name_hint"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button_submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/your_name_label" />
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="@dimen/width_item_1"
+        android:layout_height="@dimen/height_item_1"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="66dp"
+        android:backgroundTint="@color/red"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/your_name_edit_text" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
